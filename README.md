@@ -98,7 +98,7 @@ Dentro do command prompt você deve ir até a casta `C:\\.4yousee\Python27\` e e
 
 ou para funcioanr sem exibir a tela do command prompt
 
-> `python codBar.py`
+> `pythonw codBar.py`
 
 
 #### Linux:
