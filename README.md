@@ -129,4 +129,17 @@ Dessa forma você consegue saber se não foi executado um conteúdo ou se não f
 
 > ❌ Atenção : O 4YouSee Sensors não reconhece as teclas vindas pelo teclado numérico.
 
+<h2>⚈ Como executar no inicio do Sistema Operacional</h2>
+
+No windows é necessário criar um arquivo .bat com o seguinte conteúdo:
+
+```
+@echo off
+start C:\.4yousee\player\4YouSeeChromeApp\4YouSeeChromeApp.exe
+taskkill /IM pythonw.exe /F
+start C:\.4yousee\Python27\pythonw.exe C:\.4yousee\Python27\codBar.py
+start C:\.4yousee\start4YouSee.bat
+taskkill /IM cmd.exe /F
+exit
+```
 
