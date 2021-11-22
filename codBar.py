@@ -13,14 +13,14 @@ logging.basicConfig(filename=KEY_LOGS, level=logging.DEBUG, format='%(asctime)s:
 
 keys_detected = ''
 lines = list()
+content_dict = dict()
 
-
+                            
 def read_file():
     global file, lines, content_dict
     with open(TXT_COD_PLAYER) as file:
         lines = file.readlines()
-        # Creating a dict from lines
-        content_dict = {}
+        # Criando dict com key (código a receber) e value (código do conteúdo)
         for line in lines:
             content_dict[line.split(';')[0]] = line.split(';')[1].strip()
 
