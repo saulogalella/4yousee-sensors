@@ -15,11 +15,13 @@ Script em Python para execução de conteúdos 📺🟩 <br>
 
 - Conta em 4YouSee com ao menos uma licença ativa. Se não tiver, pode abrir uma conta de teste no link https://www.4yousee.com.br/register/.
 
-- 4YouSee Player instalado. Para instalar você pode consultar a seguinte documentação: https://suporte.4yousee.com.br/kb/article/115233/.
+- 4YouSee Player instalado. Para instalar você pode consultar a seguinte documentação: 
+https://4yousee.freshdesk.com/pt-BR/support/solutions/articles/72000531621.
 
-- Uma vez instalado o 4YouSee Player, é necessário obter o token dele. Para obter o token você pode consultar na seguinte documentação: https://suporte.4yousee.com.br/kb/article/117490/
+- Uma vez instalado o 4YouSee Player, é necessário obter o token dele. Para obter o token você pode consultar na seguinte documentação: https://suporte.4yousee.com.br/pt-BR/support/solutions/articles/72000535610-como-criar-integrac%C3%B5es-com-o-player-utilizando-nossa-api
 
-- Conteúdos na playlists do player em execução agendados ao futuro. Se tiver dúvidas, pode revisar essa documentação: https://suporte.4yousee.com.br/kb/article/115221/.
+- Conteúdos na playlists do player em execução agendados ao futuro. Se tiver dúvidas, pode revisar essa documentação: 
+https://suporte.4yousee.com.br/pt-BR/support/solutions/articles/72000534306-como-agendar-conte%C3%BAdos-a-partir-de-playlists).
 
 - Identificar o id dos conteúdos a serem exibidos. Veja na seguinte imagem o código do conteúdo é o `76`
 
@@ -67,7 +69,7 @@ Dentro do command prompt você deve ir até a casta `C:\\.4yousee\Python27\` e e
 
 Dentro da linha de comando digitar o seguinte:
 
-> `python -m pip install pynput && python -m pip install pynput`
+> `python -m pip install pynput && python -m pip install requests`
 
 Se as libs foram instalada com sucesso, podemos inferir que o 4YouSee Sensors foi instalado!.
 
@@ -96,7 +98,7 @@ Dentro do command prompt você deve ir até a casta `C:\\.4yousee\Python27\` e e
 
 > `python codBar.py`
 
-ou para funcioanr sem exibir a tela do command prompt
+ou para funcionar sem exibir a tela do command prompt
 
 > `pythonw codBar.py`
 
