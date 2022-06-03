@@ -27,7 +27,8 @@ def read_file():
 
 try:
     read_file()
-except FileNotFoundError:
+except Exception as e:
+    logging.warning("Error... {}".format(e))
     logging.info("Criando arquivo {}...".format(TXT_COD_PLAYER))
     with open(TXT_COD_PLAYER, 'w') as file:
         file.write("11;45\n")
