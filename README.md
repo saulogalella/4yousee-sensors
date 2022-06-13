@@ -133,7 +133,7 @@ Dessa forma você consegue saber se não foi executado um conteúdo ou se não f
 
 <h2>⚈ Como executar no inicio do Sistema Operacional</h2>
 
-No windows é necessário criar um arquivo .bat com o seguinte conteúdo:
+No windows é necessário criar um arquivo .bat com o seguinte conteúdo, e criar um atalho dele na pasta `C:\Users\Usuario\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`:
 
 ```
 @echo off
@@ -144,4 +144,17 @@ start C:\.4yousee\start4YouSee.bat
 taskkill /IM cmd.exe /F
 exit
 ```
+
+<h2>⚈ Configuração adicional para windows.</h2>
+
+1. Na segurança do windows clique em **Gerenciar configurações**:
+
+![image](https://user-images.githubusercontent.com/63620799/173395499-e26d16ad-20f3-44d8-9906-880573529f74.png)
+
+2. Depois clique em Adicionar ou remover exclusões:
+
+![image](https://user-images.githubusercontent.com/63620799/173395789-cd010bb0-dc33-4f05-bdb2-5f8a46a28c17.png)
+
+3. Clique em adicionar uma exclusão e escolha a pasta `c:\.4yousee\Python27`
+
 
