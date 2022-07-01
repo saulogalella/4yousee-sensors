@@ -27,14 +27,10 @@ def read_file():
 
 try:
     read_file()
+except IndexError:
+    logging.warning("Error lendo o arquivo {}\nConteúdo do arquivo:\n======\n{}\n======".format(TXT_COD_PLAYER, lines))
 except Exception as e:
     logging.warning("Error... {}".format(e))
-    logging.info("Criando arquivo {}...".format(TXT_COD_PLAYER))
-    with open(TXT_COD_PLAYER, 'w') as file:
-        file.write("11;45\n")
-    logging.info("Arquivo {} criado com sucesso!\n\t\t\tLembre de estabelecer os conteúdos que vão ser exibidos".format(
-        TXT_COD_PLAYER))
-    read_file()
 
 
 def searchCode(keys_detected):
