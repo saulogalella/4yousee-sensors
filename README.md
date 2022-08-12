@@ -76,7 +76,7 @@ Se as libs foram instalada com sucesso, podemos inferir que o 4YouSee Sensors fo
 
 <h2>⚈ Como Configurar o 4YouSee Sensors</h2> 
 
-Abrir o arquivo `txtCodPlayer.txt` ubicado na pasta do usuário (se não se encontra, você pode criar ele exatamente com esse nome: `txtCodPlayer.txt`) e dentro dele vão se encontrar os códigos e conteúdos referente a como você quer que sejam exibidos a partir da sinal de entrada. Exemplo:
+Abrir o arquivo `txtCodPlayer.txt` ubicado na pasta do usuário. No windows você pode ir até lá colocando no Executar o `%USERPROFILE%` (se não se encontra, você pode criar ele exatamente com esse nome: `txtCodPlayer.txt`) e dentro dele vão se encontrar os códigos e conteúdos referente a como você quer que sejam exibidos a partir da sinal de entrada. Exemplo:
 
 ```txtCodPlayer.txt
 6;150 
