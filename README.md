@@ -62,7 +62,7 @@ Para que o script funcione, precisa de duas libs externas: `requests` e `pynput`
 
 Dentro do command prompt você deve ir até a casta `C:\\.4yousee\Python27\` e escrever o seguinte comando:
 
-> `python -m pip install pynput && python -m pip install pynput`
+> `python -m pip install pynput && python -m pip install requests`
 
 
 #### Linux:
